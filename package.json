@@ -1,0 +1,16 @@
+{
+  "name": "groumet-search",
+  "version": "1.0.0",
+  "description": "HotPepper APIを使ったグルメサーチアプリケーション",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "M Hayasaka",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

@@ -1,5 +1,6 @@
 import fetch from 'isomorphic-fetch';
 import Error from 'next/error';
+import ShopList from '../components/ShopList';
 
 class Index extends React.Component {
 
@@ -32,11 +33,7 @@ class Index extends React.Component {
         return (
             <div>
                 <h1>Groumet Search</h1>
-                <div>
-                    {shops.map(shop => (
-                        <h2 key={shop.id}>{ shop.name }{ shop.address }</h2>
-                    ))}
-                </div>
+                <ShopList shops={shops} />
             </div>
         )
     }
